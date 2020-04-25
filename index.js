@@ -1,3 +1,5 @@
+const path = require('path');
+
 class CleanDirectoryWebpackPlugin {
 	constructor(options = {}) {
 		this._options = options;
