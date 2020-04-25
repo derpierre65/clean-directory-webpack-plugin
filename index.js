@@ -1,4 +1,4 @@
-export default class CleanDirectoryWebpackPlugin {
+class CleanDirectoryWebpackPlugin {
 	constructor(options = {}) {
 		this._options = options;
 	}
@@ -14,3 +14,5 @@ export default class CleanDirectoryWebpackPlugin {
 		});
 	}
 }
+
+module.exports = CleanDirectoryWebpackPlugin;
